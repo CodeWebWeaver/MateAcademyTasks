@@ -1,7 +1,7 @@
-package org.example.dailyplan;
+package org.example.dailyPlan;
 
 public class DailyPlanner {
     public static void main(String[] args) {
-
+        System.out.println();
     }
 }
