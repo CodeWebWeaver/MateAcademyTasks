@@ -1,4 +1,4 @@
-package org.example.isPrimaryNumber;
+package code.wars.isPrimaryNumber;
 
 public class IsPrimaryNumber {
     public static void main(String[] args) {

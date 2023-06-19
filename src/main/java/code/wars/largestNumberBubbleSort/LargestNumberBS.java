@@ -1,4 +1,4 @@
-package org.example.largestNumberBubbleSort;
+package code.wars.largestNumberBubbleSort;
 
 public class LargestNumberBS {
     public static void main(String[] args) {
