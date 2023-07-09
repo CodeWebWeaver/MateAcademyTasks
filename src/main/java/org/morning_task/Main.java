@@ -1,14 +1,10 @@
 package org.morning_task;
 
-import org.morning_task.alphabet.AlphabeticalAddition;
-import org.morning_task.haystack.Haystack;
-import org.morning_task.high_and_low_num.HighestAndLowest;
+import org.morning_task.reversed_string_str_join.ReverseWords;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(AlphabeticalAddition.addLetters("a","b","c"));
-        Haystack hay = new Haystack();
-        System.out.println(HighestAndLowest.highAndLow("-2"));
-
+        int[] nums = {70, 58, 75, 34, 91};
+        System.out.println(ReverseWords.reverseWords("    Hj yyyygh"));
     }
 }

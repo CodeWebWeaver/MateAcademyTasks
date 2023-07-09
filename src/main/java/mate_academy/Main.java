@@ -1,11 +1,18 @@
 package mate_academy;
 
-import mate_academy.checking_emailDB.UserService;
+import mate_academy.overrde_hash_equal_clone.Rectangle;
 
 public class Main {
     public static void main(String[] args) {
-        UserService userService = new UserService();
-        String[] dataBase = {"elf@gag:35","sanek@gag:157","gafin@gag:15"};
-        System.out.println(userService.getUserScore(dataBase, "joh@gag"));
+        Rectangle rectangle = new Rectangle(20,56, "Red");
+        System.out.println(rectangle.hashCode());
+        Rectangle rectangle1 = rectangle.clone();
+        System.out.println(rectangle1.hashCode());
+
+        System.out.println(rectangle.equals(rectangle1));
+        rectangle1.setColor("Blue");
+        System.out.println(rectangle.equals(rectangle1));
+
+        Integer i = 5;
     }
 }
